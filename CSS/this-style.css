@@ -1,0 +1,1243 @@
+body{
+    padding: 15px;
+}
+
+nav{
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li{
+    padding-right: 30px;
+}
+
+.navbar a:hover{
+    background-color: #ebebeb;
+    border-radius: 10px;
+
+}
+
+.dropdown-menu{
+    border-radius: 10px;
+    background-color: #F8F9FB;
+    border: none;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.dropdown-menu a{
+    color: black;
+}
+
+.dropdown-menu a:hover{
+    background-color: #ebebeb;
+}
+
+.relogio{
+    background-color: #ffffff;
+    color: #26777B;
+    display: block;
+    width: 300px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: auto;
+    padding: 5px;
+}
+
+div.centrarindex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+    width: 20%;
+}
+
+.fundo {
+    border-radius: 15px;
+    background-color: #40A48C;
+    padding: 15px;
+    padding-bottom: 0;
+    width: auto;
+    height: auto;
+}
+
+.btn_inisess{
+    display: block;
+    width: 230px;
+    height: 40px;
+    background-color: #79BFAE;
+    color: #26777B;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+.btn_inisess:hover{
+    background-color: #30979C;
+    color: #FFFFFF;
+}
+.btn_inisess a{
+    color: #ffffff;
+    text-decoration:none;
+    vertical-align: middle;
+}
+
+div.btn_login {
+    border-radius: 35px;
+    background-color:#ffffff;
+    color: #26777B;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+	text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 22px;
+    transition-duration: 0.2s;
+    width: auto;
+    height: auto;
+}
+.btn_login:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+a {
+    text-decoration:none;
+}
+
+/*-------------------------------Login------------------------------------*/ 
+
+div.container {
+
+    width: 350px;
+    border-radius: 35px;
+    background-color:#ffffff;
+
+}
+
+.camposlogin {
+    display: block;
+    background-color: #83c3a0;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin: auto;
+
+  }
+  .camposlogin::placeholder{
+      color: white;
+      opacity: 0.5;
+  }
+
+.centrarcamposlogin{
+    margin: auto;
+}
+
+.espacologin{
+    display: block;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #26777B;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.btn_entrar{
+    display: block;
+    width: 170px;
+    height: 40px;
+    background-color: #40A48C;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 40px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn_entrar:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn_entrar a{
+    text-decoration: none;
+    text-align: center;
+}
+
+/*-------------------------------PrimerPage------------------------------------*/
+
+.espacoaddnoticia{
+    display: block;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.espacoaddclube{
+    display: block;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 250px;
+    height: 50px;
+    float: left;
+    margin-top: 100px;
+
+}
+
+.espacocriarinscricao{
+    display: block;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 250px;
+    height: 50px;
+    margin-left: 60%;
+    margin-top: 100px;
+}
+
+.container{
+    width: 600px;
+    height: 60px;
+    margin: auto;
+    padding: 10px;
+}
+
+/*-------------------------------AddNotícia------------------------------------*/
+
+div.container {
+
+    width: 350px;
+    border-radius: 35px;
+    background-color:#ffffff;
+
+}
+
+legend{
+    font-size: 30px;
+}
+
+.campotitulo {
+    display: inline-block;
+    width: 470px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #26777B;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+  ::placeholder{
+      color: #26777B;
+      font-weight: bold;
+      opacity: 0.5;
+  }
+
+.campodata{
+    display: inline-block;
+    width: 240px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #26777B;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.centrarcamposnoticia{
+    margin: auto;
+}
+
+.espaconoticia{
+    display: block;
+    background-color: #26777B;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    width: 780px;
+    height: auto;
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.corpo {
+    display: block;
+    width: 720px;
+    background-color: #FFFFFF;
+    color: #26777B;
+    border: none;
+    border-radius: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin: auto;
+  }
+
+  input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #26777B;
+    margin-right: 0.5em;
+    opacity: 0.5;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+  }
+
+  .btn_pubnot{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #40A48C;
+    color: white;
+    margin: auto;
+    margin-top: 40px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+.btn_pubnot:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+a {
+    text-decoration:none;
+}
+
+/*-------------------------------AddClube------------------------------------*/
+
+.espacoclubes{
+    display: block;
+    background-color: #26777B;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    width: 780px;
+    height: auto;
+    padding: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.camponclubendocente {
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #26777B;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+  ::placeholder{
+      color: #26777B;
+      font-weight: bold;
+      opacity: 0.5;
+  }
+
+  .campodiasclube {
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #26777B;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+
+  .campoiniciofimclube {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #26777B;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+
+  .campovagas {
+    display: inline-block;
+    width: 85px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #26777B;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+
+  .addimagem{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #26777B;
+    opacity: 0.5;
+  }
+
+.upload{
+    width: 320px;
+    height: 110px;
+    padding: 10px;
+    background:#ffffff;
+    color: #26777B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.btnupload{
+    width: 300px;
+    height: auto;
+    font-size: 13px;
+    position: absolute;
+}
+
+.campoemailDT {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #26777B;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+
+/*-------------------------------Criar Inscrição------------------------------------*/
+
+.btn_criar{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #30979C;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+    float: right;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    text-align: center;
+}
+.btn_criar:hover{
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn_criar a{
+    color: white;
+    text-decoration:none;
+    vertical-align: middle;
+}
+
+/*-------------------------------Criar Inscrição------------------------------------*/
+
+.espacoinscricao{
+    display: block;
+    background-color: #26777B;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    width: 780px;
+    height: auto;
+    padding: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.boxclube {
+    position: absolute;
+
+  }
+  
+  .boxclube select {
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #26777B;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    
+    font-size: 20px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .boxclube::before {
+    content: "\25be";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    color: #26777B;
+    right: 0;
+    height: 100%;
+    width: 40px;
+    text-align: center;
+    line-height: 55px;
+    color: #26777B;
+    background-color: #ffffff;
+    opacity: 0.5;
+    pointer-events: none;
+    border-radius: 0 30px 30px 0;
+  }
+  
+  .boxclube:hover::before {
+    color: #ffffff;
+    background-color: #26777B;
+  }
+  
+  .boxclube select option {
+    padding: 30px;
+    font-weight: bold;
+  }
+
+  .boxano {
+    position: absolute;
+    margin-top: 30px;
+  }
+  
+  .boxano select {
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #26777B;
+    padding: 12px;
+    width: 100px;
+    border: none;
+    font-size: 20px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .boxano::before {
+    content: "\25be";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    color: #26777B;
+    right: 0;
+    height: 100%;
+    width: 35px;
+    text-align: center;
+    line-height: 45px;
+    color: #26777B;
+    background-color: #ffffff;
+    opacity: 0.5;
+    pointer-events: none;
+    border-radius: 0 30px 30px 0;
+  }
+  
+  .boxano:hover::before {
+    color: #ffffff;
+    background-color: #26777B;
+  }
+  
+  .boxano select option {
+    padding: 30px;
+    font-weight: bold;
+  }
+
+  .boxturma {
+    position: absolute;
+    margin-top: 30px;
+  }
+  
+  .boxturma select {
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #26777B;
+    padding: 12px;
+    width: 100px;
+    border: none;
+    font-size: 20px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 110px;
+  }
+
+  .boxturma::before {
+    content: "\25be";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    color: #26777B;
+    right: 0;
+    height: 100%;
+    width: 35px;
+    text-align: center;
+    line-height: 45px;
+    color: #26777B;
+    background-color: #ffffff;
+    opacity: 0.5;
+    pointer-events: none;
+    border-radius: 0 30px 30px 0;
+  }
+  
+  .boxturma:hover::before {
+    color: #ffffff;
+    background-color: #26777B;
+  }
+  
+  .boxturma select option {
+    padding: 30px;
+    font-weight: bold;
+  }
+
+  .boxnomealuno {
+    position: absolute;
+    margin-top: 60px;
+  }
+  
+  .boxnomealuno select {
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #26777B;
+    padding: 12px;
+    width: 500px;
+    border: none;
+    font-size: 20px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .boxnomealuno::before {
+    content: "\25be";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    color: #26777B;
+    right: 0;
+    height: 100%;
+    width: 40px;
+    text-align: center;
+    line-height: 45px;
+    color: #26777B;
+    background-color: #ffffff;
+    opacity: 0.5;
+    pointer-events: none;
+    border-radius: 0 30px 30px 0;
+  }
+  
+  .boxnomealuno:hover::before {
+    color: #ffffff;
+    background-color: #26777B;
+  }
+  
+  .boxnomealuno select option {
+    padding: 30px;
+    font-weight: bold;
+  }
+
+  .btn_criarins{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #40A48C;
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+.btn_criarins:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+a {
+    text-decoration:none;
+}
+
+/*-------------------------------TextArea Fixed------------------------------------*/
+
+textarea{
+    resize: none;
+ }
+
+ ::-webkit-scrollbar {
+    width: 15px;
+
+}
+ 
+::-webkit-scrollbar-track {
+    background: #40A48C;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #26777B;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 3px solid #40A48C;
+}
+
+/*-------------------------------ListaSolicitações------------------------------------*/
+
+.espacosolicitacoes{
+    display: block;
+    background-color: #26777B;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    width: 900px;
+    height: auto;
+    padding: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.espacosolicalunos{
+    display: block;
+    background-color: #26777B;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    width: 780px;
+    height: auto;
+    padding: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-size: 18px;
+    color: #26777B;
+  }
+
+  table a{
+      text-decoration: none;
+      color: inherit;
+  }
+  
+  th, td {
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+}
+
+td a{
+    text-decoration: none;
+}
+
+td a:hover{
+    color: #30979C;
+}
+
+#accept{
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #40A48C;
+    color: white;
+    margin: auto;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+
+#accept:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#reject{
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #e67e49;
+    color: white;
+    margin: auto;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+
+#reject:hover{
+    background-color: #d13737;
+    color: white;
+}
+a {
+    text-decoration:none;
+}
+
+.btn_voltar{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #30979C;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+    float: left;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    text-align: center;
+}
+.btn_voltar:hover{
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn_voltar a{
+    color: white;
+    text-decoration:none;
+    vertical-align: middle;
+}
+
+.btn_edit{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #30979C;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+    float: right;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    text-align: center;
+}
+.btn_edit:hover{
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn_edit a{
+    color: white;
+    text-decoration:none;
+    vertical-align: middle;
+}
+
+.btn_remover{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #e67e49;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+    float: right;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    text-align: center;
+}
+.btn_remover:hover{
+    background-color: #d13737;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn_remover a{
+    color: white;
+    text-decoration:none;
+    vertical-align: middle;
+}
+
+/*-------------------------------ListaClubes------------------------------------*/
+
+.espacoeditclubes{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+.espacoeditclubes a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.editremove{
+    position: absolute;
+    margin-left: 80px;
+    padding: 15px;
+    padding-left: 0;
+
+}
+
+ul.menu
+{
+list-style-type:none;
+list-style-position: inside;
+margin:0;
+padding:0;
+
+}
+
+.menu li a {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#editremove{
+    background-color: #26777B;
+    color: #FFFFFF;
+}
+
+#bgbox{
+    width: 1260px;
+    height: 550px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 9999;
+    padding: 15px;
+    text-align: center;
+    display: none;
+    opacity: 0.5;
+}
+
+#box{
+    width: 500px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 10px gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #26777B;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 15px;
+    text-align: center;
+    display: none;
+    opacity: 1;
+  }
+
+  
+
+  table a{
+      cursor: pointer;
+  }
+
+  .btn_yesnoPopup{
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #40A48C;
+    color: white;
+    margin: auto;
+    margin-top: 40px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+.btn_yesnoPopup:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*-------------------------------ListaAlunos------------------------------------*/
+
+.espacolistalunos{
+    display: block;
+    background-color: #26777B;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    width: 900px;
+    height: auto;
+    padding: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.search-box{
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 30px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.input-box{
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    padding-left: 30px;
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    line-height: 15px;
+    color: #26777B;
+}
+
+.search-btn{
+    color: #26777B;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+    border-radius: 50%;
+    vertical-align: middle;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+#fltTabela{
+    border-collapse: collapse;
+}
+
+.sortAlunoProfEnc{
+    display: block;
+    width: 100px;
+    height: 25px;
+    background-color: #30979C;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    text-align: center;
+}
+.sortAlunoProfEnc:hover{
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sortAlunoProfEnc a{
+    color: white;
+    text-decoration:none;
+    vertical-align: middle;
+}
+
+.sortAlunoProfEnc2{
+    display: block;
+    width: 120px;
+    height: 25px;
+    background-color: #30979C;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    text-align: center;
+}
+.sortAlunoProfEnc2:hover{
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sortAlunoProfEnc2 a{
+    color: white;
+    text-decoration:none;
+    vertical-align: middle;
+}
+
+/*-------------------------------ListaAlunos------------------------------------*/
+
+.espacoavaliacoes{
+    background-color: #FFFFFF;
+    color: #26777B;
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
+}
