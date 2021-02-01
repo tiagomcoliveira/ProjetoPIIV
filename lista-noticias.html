@@ -16,9 +16,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="../PI4-BackOffice/CSS/this-style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/this-style.css">
     <link rel="shortcut icon" type="image/icon" href="imagens/favicon_esv.ico">
-    <script src="../PI4-BackOffice/Javascript/estilos.js"></script>
+    <script src="Javascript/estilos.js"></script>
 </head>
 
 <body>
